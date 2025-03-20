@@ -1,7 +1,7 @@
 from Flask import Flask, render_template, request, redirect, url_for
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__library__)
 library = {}
 students = {}
 
